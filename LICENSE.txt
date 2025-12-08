@@ -1,0 +1,17 @@
+
+---
+
+# E — Troubleshooting
+
+- **Authentication errors pushing**: create a Personal Access Token (PAT) on GitHub and use it when prompted for password. Or enable credential manager.
+- **Large files**: if models or data are large, do not commit them. Use `.gitignore`. For large assets, use GitHub Releases or LFS (but avoid LFS for portfolio).
+- **Accidental secrets committed**: rotate them immediately and remove from git history with `git filter-repo` or `BFG Repo-Cleaner`.
+
+---
+
+If you like, I can:
+- Generate a ready-to-copy `README.md`, `.gitignore`, and `LICENSE` file contents customized for your repo (I already gave a snippet — I can create the full file content).
+- Provide the exact `git` commands you should run right now based on your current folder (I can output a ready script you can paste into PowerShell).
+- Walk you through setting up a Personal Access Token if you need one for pushing.
+
+Which of those would you like next?
